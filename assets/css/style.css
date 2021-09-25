@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +26,70 @@
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
     display: block;}
-  
+
+  body{
+    line-height:1;
+  }
+
+  body{
+    -webkit-text-size-adjust: none;
+  }
+
+  /* html */
+
+  html{
+    box-sizing:border-box;
+  }
+
+  *, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background: #fff;
+	}
+
+  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+  }
+
+  body, input, select, textarea {
+    color: #a2a2a2;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.75em;
+  }
+
+  h1,h2,h3{
+    color: #787878;
+    font-weight: 400;
+    line-height:1em;
+    margin:0 0 1em 0;
+  }
+
+  h1{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  h2{
+    font-size: 1.5em;
+    line-height:1.5em;
+  }
+
+  h3{
+    font-size:1.25em;
+    line-height: 1.5em;
+  }
+
 
   /* Header */
   #header{
@@ -269,4 +333,23 @@
 			}
 
 
-      
+/* Main */
+
+#main {
+  margin-left: 35%;
+  max-width: 54em;
+  padding: 8em 4em 4em 4em;
+  width: calc(100% - 35%);
+}
+
+  #main > section {
+    border-top: solid 2px #efefef;
+    margin: 4em 0 0 0;
+    padding: 4em 0 0 0;
+  }
+
+    #main > section:first-child {
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
