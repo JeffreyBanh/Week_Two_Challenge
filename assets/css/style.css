@@ -4,12 +4,59 @@
     padding: 0;
   }
 
-header{
-  margin:0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+  html, body, div, span, applet, object,
+  iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+  pre, a, abbr, acronym, address, big, cite,
+  code, del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var, b,
+  u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+  form, label, legend, table, caption, tbody,
+  tfoot, thead, tr, th, td, article, aside,
+  canvas, details, embed, figure, figcaption,
+  footer, header, hgroup, menu, nav, output, ruby,
+  section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;}
+  
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;}
+  
+
+  /* Header */
+  #header{
+    display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-align-items: -moz-flex-end;
+		-webkit-align-items: -webkit-flex-end;
+		-ms-align-items: -ms-flex-end;
+		align-items: flex-end;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+    background: black;
+    background-attachment: scroll;
+    background-image: url("assets/images/Header_Image.jpg");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: auto;
+    color: rgba(255, 255, 255, 0.5);
+		height: 100%;
+		left: 0;
+		padding: 8em 4em;
+		position: fixed;
+		text-align: right;
+		top: 0;
+		width: 35%;
+  }
 
