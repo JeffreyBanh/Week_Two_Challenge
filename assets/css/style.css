@@ -117,7 +117,7 @@
 		-ms-justify-content: space-between;
     background: black;
 		background-attachment: scroll,								scroll;
-		background-image: url("assets/images/bg.jpg"), url("../../images/bg.jpg");
+		background-image: url("../images/Header.jpg"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
     background-size: auto;
