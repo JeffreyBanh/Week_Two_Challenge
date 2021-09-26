@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -111,11 +112,12 @@
 		-ms-align-items: -ms-flex-end;
 		align-items: flex-end;
 		-moz-justify-content: space-between;
+    justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
     background: black;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/header.png"), url("../../images/bg.jpg");
+		background-image: url("assets/images/bg.jpg"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
     background-size: auto;
@@ -388,6 +390,7 @@ header h3 + p {
 header.major h2 {
   font-size: 2em;
 }
+
 
 /* Row */
 
@@ -876,4 +879,25 @@ header.major h2 {
           }
 
   }
+
+  /* Work Item */
+
+	.work-item {
+		margin: 0 0 2em 0;
+	}
+
+		.work-item .image {
+			margin: 0 0 1.5em 0;
+		}
+
+		.work-item h3 {
+			font-size: 1em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.work-item p {
+			font-size: 0.8em;
+			line-height: 1.5em;
+			margin: 0;
+		}
 
